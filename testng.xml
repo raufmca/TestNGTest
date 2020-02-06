@@ -1,0 +1,13 @@
+<suite name="Batch Running">
+	<test name="RegisterTest" allow-return-value="true">
+		<classes>
+		<class name="com.selenium.TestNGTest.TestFirst" />
+		</classes>
+	</test>
+	
+	<test name="Sample" allow-return-value="true">
+		<classes>
+			<class name="com.selenium.TestNGTest.TestSecond" />
+		</classes>
+	</test>
+</suite>
